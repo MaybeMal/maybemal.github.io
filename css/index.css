@@ -5,6 +5,7 @@
 .row-container {
   display: flex;
   flex-direction: row;
+  background-color: DodgerBlue;
 }
 
 h1 {
