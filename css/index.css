@@ -3,7 +3,8 @@
 }
 
 .row-div {
- flex-direction: row; 
+  display: flex;
+  flex-direction: row; 
 }
 
 h1 {
