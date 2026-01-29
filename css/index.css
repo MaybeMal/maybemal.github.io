@@ -1,5 +1,7 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
 .icon {
@@ -11,12 +13,22 @@
   text-decoration-line: underline;
 }
 
+.left-container {
+  position: absolute;
+  left: 0;
+  align-text: center;
+}
+
+.right-container {
+  position: absolute;
+  right: 0;
+  align-items: center;
+}
+
 .row-container {
   display: flex;
   flex-direction: row;
   background-color: cyan;
-  margin: 0px;
-  border: 1px solid black;
 }
 
 .section-container {
@@ -24,20 +36,26 @@
   flex-direction: row;
   background-color: cyan;
   justify-content: space-between;
+  align-items: stretch;
 }
 
 .spacer {
-  padding: 50%;
-  border: 1px solid black;
+  padding: 5%;
 }
 
 h1 {
   color: black;
+  padding: 3px;
+}
+
+h2 {
+  padding: 3px;
 }
 
 
 p, li {
   font-size: 18px;
+  padding: 3px;
 }
 
 
