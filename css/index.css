@@ -2,10 +2,33 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.icon {
+  padding: 100px, 210px;
+}
+
+.link {
+  color: DodgerBlue;
+  text-decoration-line: underline;
+}
+
 .row-container {
   display: flex;
   flex-direction: row;
-  background-color: DodgerBlue;
+  background-color: cyan;
+  margin: 0px;
+  border: 1px solid black;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  background-color: cyan;
+  justify-content: space-between;
+}
+
+.spacer {
+  padding: 50%;
+  border: 1px solid black;
 }
 
 h1 {
@@ -13,8 +36,7 @@ h1 {
 }
 
 
-p, 
-li {
+p, li {
   font-size: 18px;
 }
 
