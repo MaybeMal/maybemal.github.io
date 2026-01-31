@@ -149,6 +149,7 @@
   height: 100%;
   width: 70%;
   border-right: 2px solid black;
+  background-color: white;
 }
 
 #main-heading {
@@ -168,7 +169,7 @@
   height: 100%;
   width: 30%;
   border-left: 2px solid black;
-  overflow: auto;
+  background-color: white;
 }
 
 a {
