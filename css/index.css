@@ -5,35 +5,44 @@
 
   min-width: 0;
   max-width: 100%;
-  background-color: white;
   flex-shrink: 0;
+  box-sizing: border-box;
 }
 
 .buffer {
   background-color: white;
-  min-height: 100vh;
-  box-sizing: border-box;
+  border-right: 2px solid black;
+  min-height: 0vh;
+  padding-bottom: 75%;
 }
 
-.icon {
+.cert {
+  font-size: 1.2vw;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: wrap;
+  column-count: 2;
+  column-gap: fit-container;
+  align-items: center;
+  height: 3.5vw;
+  background-color: white;
 }
 
 .link {
-  color: DodgerBlue;
-  text-decoration-line: underline;
+  background-color: transparent;
+  font-weight: bold;
+  /* color: DodgerBlue;
+  text-decoration-line: underline; */
 }
 
 .left-container {
   position: absolute;
   left: 0;
   align-text: center;
-}
-
-.pair {
-  justify-self: center;
-  display: grid;
-  column-gap: 0px;
-  grid-template-columns: auto auto auto;
 }
 
 .right-container {
@@ -54,30 +63,67 @@
   background-color: cyan;
 }
 
-.spacer {
+.spacer1 {
+  padding: 1%;
+}
+
+.spacer3 {
+  padding: 3%;
+}
+
+.spacer5 {
   padding: 5%;
 }
 
-#blurb {
-  border-bottom: 2px solid black;
+.text-container {
+  padding: 3px;
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
-#contact {
+#blurb {
+  background-color: white;
+}
+
+#icon-download {
+  font-size: 1.3vw;
+  background-color: transparent;
+  align-self: center;
+}
+
+#icon-github {
+  font-size: 1.3vw;
+  background-color: transparent;
+  align-self: center;
+}
+
+#icon-linkedin {
+  font-size: 1.3vw;
+  background-color: transparent;
+  align-self: center;
+}
+
+#icon-mail {
+  font-size: 1.3vw;
+  background-color: transparent;
+  align-self: center;
 }
 
 #main {
   position: absolute;
   left: 0;
   text-align: center;
-  width: 69.9%;
-  border-right: 4px solid black;
+  height: 100vh;
+  width: 70%;
+  border-right: 2px solid black;
   overflow: auto;
 }
 
 #main-heading {
   overflow: wrap;
   column-count: 2;
-  column-gap: 47%;
+  column-gap: 45%;
   align-items: center;
   height: 3.5vw;
   border-bottom: 2px solid black;
@@ -88,16 +134,34 @@
   position: absolute;
   right: 0;
   align-items: center;
+  height: 100vh;
   width: 30%;
-  border-left: 4px solid black;
+  border-left: 2px solid black;
   overflow: auto;
 }
 
 body {
-  background-color: beige;
+  background-color: white;
   overflow: auto;
+  height: 100vh;
   width: 100vw;
   padding-bottom: 75%;
+}
+
+button {
+  justify-self: center;
+  display: grid;
+  column-gap: 0px;
+  grid-template-columns: auto auto auto;
+  background-color: lightblue;
+  border: 3px solid black;
+  padding: 3px;
+  border-radius: 20px;
+  margin: 2.5px;
+}
+
+button:hover {
+  background-color: dodgerblue;
 }
 
 h1 {
@@ -123,14 +187,16 @@ h3 {
   padding: 3px;
   align-self: center;
   min-width: fit-content;
-  background-color: cyan;
 }
 
-p,
-li {
+p {
   font-size: 1.3vw;
   padding: 3px;
   text-align: center;
+}
+
+li {
+  font-size: 1.35vw;
 }
 
 a {
