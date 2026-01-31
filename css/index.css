@@ -95,7 +95,7 @@
 .zoom {
   padding: 50px;
   border-radius: 10px;
-  background-color: blue;
+  background-color: black;
   transition: transform 0.2s;
   height: 8.2vh;
   width: 20%;
