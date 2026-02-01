@@ -1,5 +1,5 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Helvetica, Arial;
   margin: 0 auto;
   border-collapse: collapse;
 
@@ -54,6 +54,12 @@
   text-decoration-line: underline;
 }
 
+.link-text-wip {
+  color: blue;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
 .right-container {
   position: absolute;
   right: 0;
@@ -93,13 +99,12 @@
 }
 
 .zoom {
-  padding: 50px;
   border-radius: 10px;
   background-color: black;
+  align-items: center;
   transition: transform 0.2s;
-  height: 8.2vh;
-  width: 20%;
-  margin: 0 auto;
+  height: fit-content;
+  width: 11vw;
 }
 
 .zoom:hover {
@@ -111,7 +116,7 @@
 
 .zoom-title {
   font-size: 1vw;
-  width: 8.2vw;
+  width: 10vw;
 }
 
 #blurb {
@@ -155,7 +160,7 @@
 #main-heading {
   overflow: wrap;
   column-count: 2;
-  column-gap: 45%;
+  column-gap: 40%;
   align-items: center;
   height: 6vh;
   border-bottom: 2px solid black;
@@ -225,6 +230,10 @@ h3 {
   min-width: fit-content;
 }
 
+img {
+  height: 80px;
+}
+
 p {
   font-size: 1.3vw;
   padding: 3px;
@@ -232,5 +241,5 @@ p {
 }
 
 li {
-  font-size: 1.35vw;
+  font-size: 1.3vw;
 }
