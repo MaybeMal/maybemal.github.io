@@ -240,15 +240,21 @@ p {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .section-container {
-    flex-direction: column;
-  }
-  h2 {
-    background-color: lime;
-  }
-}
-
 li {
   font-size: 1.3vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .section-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #main {
+    position: relative;
+    width: 100%;
+  }
+  #sidebar {
+    position: relative;
+    width: 100%;
+  }
 }
