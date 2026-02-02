@@ -244,6 +244,9 @@ p {
   .section-container {
     flex-direction: column;
   }
+  h2 {
+    background-color: lime;
+  }
 }
 
 li {
