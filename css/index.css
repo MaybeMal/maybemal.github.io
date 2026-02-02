@@ -99,7 +99,7 @@
 }
 
 .zoom {
-  border-radius: 10px;
+  border-radius: 4px;
   background-color: black;
   align-items: center;
   transition: transform 0.2s;
