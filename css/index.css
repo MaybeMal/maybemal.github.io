@@ -257,4 +257,43 @@ li {
     position: relative;
     width: 100%;
   }
+  
+  h1 {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  h3 {
+    font-size: 2.2vw;
+  }
+  img {
+    height: 12vh;
+  }
+  p {
+    font-size: 2vw;
+  }
+  li {
+    font-size: 2vw;
+  }
+  
+  .cert {
+    font-size: 2vw;
+  }
+  .zoom-title {
+    font-size: 1.32vw;
+  }
+  
+  #icon-download {
+    font-size: 2.5vw;
+  }
+  #icon-github {
+    font-size: 2.5vw;
+  }
+  #icon-linkedin {
+    font-size: 2.5vw;
+  }
+  #icon-mail {
+    font-size: 2.5vw;
+  }
 }
