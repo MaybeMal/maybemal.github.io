@@ -32,7 +32,7 @@
   column-gap: fit-container;
   align-items: center;
   height: 3.5vw;
-  background-color: white;
+  background-color: rgb(250, 249, 246); /* off white */
 }
 
 .left-container {
@@ -75,7 +75,7 @@
 .section-container {
   display: flex;
   flex-direction: row;
-  background-color: cyan;
+  background-color: rgb(250, 249, 246); /* off white */
   height: 100%;
 }
 
@@ -93,7 +93,7 @@
 
 .text-container {
   padding: 3px;
-  background-color: white;
+  background-color: rgb(250, 249, 246); /* off white */
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
@@ -104,14 +104,14 @@
   align-items: center;
   transition: transform 0.2s;
   height: fit-content;
-  width: 14vw;
+  width: 12.5vw;
 }
 
 .zoom:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
-  border: solid 4px white;
+  border: solid 4px cyan;
 }
 
 .zoom-title {
@@ -120,7 +120,7 @@
 }
 
 #blurb {
-  background-color: white;
+  background-color: rgb(250, 249, 246); /* off white */
 }
 
 #icon-download {
@@ -151,10 +151,10 @@
   position: absolute;
   left: 0;
   text-align: center;
-  height: 100%;
+  height: 120%;
   width: 70%;
   border-right: 2px solid black;
-  background-color: white;
+  background-color: rgb(250, 249, 246); /* off white */
 }
 
 #main-heading {
@@ -164,17 +164,17 @@
   align-items: center;
   height: 6vh;
   border-bottom: 2px solid black;
-  background-color: cyan;
+  background-color: rgb(64, 224, 208); /* turquoise */
 }
 
 #sidebar {
   position: absolute;
   right: 0;
   align-items: center;
-  height: 100%;
+  height: 120%;
   width: 30%;
   border-left: 2px solid black;
-  background-color: white;
+  background-color: rgb(250, 249, 246); /* off white */
 }
 
 a {
@@ -182,7 +182,7 @@ a {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(250, 249, 246); /* off white */
   overflow: auto;
   height: fit-content;
   width: 100vw;
@@ -208,7 +208,7 @@ button:hover {
 h1 {
   font-size: 2vw;
   color: black;
-  background-color: cyan;
+  background-color: transparent;
   padding: 3px;
   min-width: fit-content;
 }
@@ -219,7 +219,7 @@ h2 {
   text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  background-color: cyan;
+  background-color: rgb(64, 224, 208); /* turquoise */
 }
 
 h3 {
