@@ -240,6 +240,12 @@ p {
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-container {
+    flex-direction: column;
+  }
+}
+
 li {
   font-size: 1.3vw;
 }
