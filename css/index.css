@@ -96,6 +96,7 @@
   background-color: rgb(250, 249, 246); /* off white */
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  justify-content: center;
 }
 
 .zoom {
