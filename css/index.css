@@ -245,6 +245,9 @@ li {
 }
 
 @media only screen and (max-width: 480px) {
+  * {
+    overflow: hidden;
+  }
   .section-container {
     display: flex;
     flex-direction: column;
@@ -255,44 +258,44 @@ li {
     border-right: 0px;
   }
   #main-heading {
-    column-gap: 32%;
+    column-gap: 25%;
   }
   #sidebar {
     position: relative;
     width: 100%;
     border-left: 0px;
   }
-  
+
   h1 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   h2 {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   h3 {
-    font-size: 2.5vw;
+    font-size: 2.62vw;
   }
   img {
     height: 12vh;
   }
   p {
-    font-size: 2vw;
+    font-size: 2.4vw;
   }
   li {
-    font-size: 2vw;
+    font-size: 2.4vw;
   }
   ul {
-    width: 60%;
+    width: 80%;
   }
-  
+
   .cert {
     font-size: 2vw;
   }
   .zoom-title {
-    font-size: 1.32vw;
-    width: 14vw;
+    font-size: 2vw;
+    width: 20vw;
   }
-  
+
   #icon-download {
     font-size: 2.5vw;
   }
