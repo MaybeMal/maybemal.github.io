@@ -265,6 +265,7 @@ li {
   #main-heading { 
     column-gap: 25%;
     height: fit-content;
+    padding: 2%;
   }
   #sidebar {
     position: relative;
