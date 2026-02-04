@@ -264,6 +264,7 @@ li {
   }
   #main-heading { 
     column-gap: 25%;
+    height: fit-content;
   }
   #sidebar {
     position: relative;
@@ -273,7 +274,6 @@ li {
 
   h1 {
     font-size: 4vw;
-    height: fit-content;
   }
   h2 {
     font-size: 3.5vw;
