@@ -187,6 +187,7 @@
 
 a {
   text-decoration: none;
+  -webkit-appearance: none;
 }
 
 body {
