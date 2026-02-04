@@ -247,7 +247,7 @@ li {
   font-size: 1.3vw;
 }
 
-@media (max-width: 600px), (height < width <= 800px) ) {
+@media (max-height: 700px), (height < width <= 800px) ) { /* phones (portrait/landscape) + smaller windows */
   * {
     align-content: center;
     justify-content: center;
