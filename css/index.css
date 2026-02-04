@@ -54,12 +54,6 @@
   text-decoration-line: underline;
 }
 
-.link-text-wip {
-  color: blue;
-  font-weight: bold;
-  text-decoration-line: underline;
-}
-
 .right-container {
   position: absolute;
   right: 0;
