@@ -125,6 +125,10 @@
   background-color: rgb(250, 249, 246); /* off white */
 }
 
+#contact {
+    border-top: 0px;
+  }
+
 #icon-download {
   font-size: 1.3vw;
   background-color: transparent;
@@ -300,6 +304,10 @@ li {
   .zoom-title {
     font-size: 2vw;
     width: 20vw;
+  }
+
+  #contact {
+    border-top: 2px solid black;
   }
 
   #icon-download {
