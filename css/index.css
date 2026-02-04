@@ -263,7 +263,7 @@ li {
     width: 100%;
     border: 0px;
   }
-  #main-heading {
+  #main-heading { 
     column-gap: 25%;
   }
   #sidebar {
