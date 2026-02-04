@@ -181,7 +181,6 @@
 
 a {
   text-decoration: none;
-  text-color: black;
 }
 
 body {
@@ -260,7 +259,7 @@ li {
   #main {
     position: relative;
     width: 100%;
-    border-right: 0px;
+    border: 0px;
   }
   #main-heading {
     column-gap: 25%;
@@ -268,7 +267,7 @@ li {
   #sidebar {
     position: relative;
     width: 100%;
-    border-left: 0px;
+    border: 0px;
   }
 
   h1 {
