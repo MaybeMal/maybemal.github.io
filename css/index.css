@@ -123,7 +123,7 @@
   border-top: 0px;
 }
 
-#icon-download {
+#icon-file {
   font-size: 1.3vw;
   background-color: transparent;
   align-self: center;
@@ -308,7 +308,7 @@ li {
     border-top: 2px solid black;
   }
 
-  #icon-download {
+  #icon-file {
     font-size: 2.5vw;
   }
   #icon-github {
