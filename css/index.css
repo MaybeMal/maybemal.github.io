@@ -42,6 +42,7 @@
   color: blue;
   font-weight: bold;
   text-decoration-line: underline;
+  cursor: pointer;
 }
 
 .right-container {
@@ -183,6 +184,7 @@ body {
 }
 
 button {
+  cursor: pointer;
   justify-self: center;
   display: grid;
   column-gap: 0px;
