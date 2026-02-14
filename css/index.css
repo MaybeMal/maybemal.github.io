@@ -239,7 +239,7 @@ li {
   font-size: 1.25vw;
 }
 
-@media (max-height: 700px), (height < width <= 800px) ) {
+@media (max-height: 700px), (height < width <= 750px) ) {
   * {
     align-content: center;
     justify-content: center;
